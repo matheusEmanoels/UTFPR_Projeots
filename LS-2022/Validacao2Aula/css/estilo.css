@@ -1,0 +1,31 @@
+.form .invalid {
+    border: 1px solid red;
+}
+
+
+/* .form .valid {
+    border: 1px solid rgb(2, 172, 7);
+    box-shadow: 0 0 0 0.2rem rgba(0, 180, 24, 0.25);
+} */
+.erromsg span {
+    color: #F00;
+}
+
+.invalid:focus {
+    /* color: #495057;
+    background-color: #fff; */
+    /* border-color: #F00; */
+    /* outline: 0; */
+    box-shadow: 0 0 0 0.2rem rgba(255, 1, 1, 0.25);
+}
+.valid:focus {
+    /* color: #495057;
+    background-color: #fff; */
+    /* border-color: #F00; */
+    /* outline: 0; */
+    box-shadow: 0 0 0 0.2rem rgba(0, 180, 24, 0.25);
+}
+
+.erro{
+    color: #F00;
+}

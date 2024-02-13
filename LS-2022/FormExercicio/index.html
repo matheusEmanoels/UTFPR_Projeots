@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Exercicio1 Formulario</title>
+</head>
+<body>
+    <main>
+        <div>
+            <form class="bck-gray" action="#" method="post">
+                <div class="flex white-text dv-rd dv-black">
+                    <h1 class="mr h1-ml h1-mr">Faça seu cadastro</h1>
+                    <h1 class="h1-ml">Campos marcados com (*) são obrigatorios</h1>
+                </div>
+                <div class="mb-2">
+                    <div>
+                        <div class="flex mb-2">
+                            <div class="blue-ball mr white-text">
+                                <h1>1</h1>
+                            </div>
+                            <h1>Login</h1>
+                        </div>
+                        <div class="h1-mr">
+                            <label class="mr" for="nome">Nome *</label>
+                            <input class="w-80" type="text" name="nome" id="nome">
+                        </div>
+                        <div class="h1-mr">
+                            <label class="mr"  for="email">E-mail *</label>
+                            <input class="w-80" type="email" name="email" id="email">
+                        </div>
+                        <div class="h1-mr">
+                            <label class="mr"  for="senha">Senha *</label>
+                            <input type="password" name="senha" id="senha">
+                        </div>
+                        <div class="h1-mr">
+                            <label class="mr"  for="data">Data de Aniversario *</label>
+                            <input type="date" name="data" id="data">
+                        </div>
+                    </div>
+    
+                    <div>
+                        <div class="h1-mr">
+                            <label class="mr">Declaro que sou </label>
+                            <input type="radio" name="idade" id="idade">
+                            <label for="maior18">Maior que 18 anos</label>
+                            <input type="radio" name="idade" id="idade">
+                            <label for="menor18">Menor que 18 anos</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-2">
+                    <div class="flex mb-2">
+                        <div class="blue-ball mr white-text">
+                            <h1>2</h1>
+                        </div>
+                        <h1> Biografia</h1>
+                    </div>
+                    <div class="w-80">
+                        <textarea name="bio" id="bio" cols="80" rows="10"></textarea>
+                    </div>
+                </div>
+
+                <div class="mb-2">
+                    <div class="flex mb-2">
+                        <div class="blue-ball mr white-text">
+                            <h1>3</h1>
+                        </div>
+                        <h1>Dados Profissionais</h1>
+                    </div>
+    
+                    <div> 
+                        <label for="interreses">Interreses:</label>
+                        <select class="w-100" name="interreses" id="interreses">
+                            <option value="bancos">Banco De Dados</option>
+                            <option value="java">Programador Java</option>
+                            <option value="frontEnd">Desenvolvedor Front-End</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="mb-2">
+                    <div class="flex mb-2">
+                        <div class="blue-ball mr white-text">
+                            <h1>4</h1>
+                        </div>
+                        <h1>Envie seu Curriculum Vitae</h1>
+                    </div>
+                    <div>
+                        <input type="file" name="arq" id="arq">
+                    </div>
+                </div>
+
+                <div class="mb-2">
+                    <input type="checkbox" name="actVagas" id="actVagas">
+                    <label for="actVagas">Desejo receber vagas no Inbox</label>
+                </div>
+                
+                <div class="flex white-text dv-rb dv-black w-100">
+                    <input class="h1-mr div-sub" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>

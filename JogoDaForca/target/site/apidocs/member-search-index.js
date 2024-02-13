@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.mycompany.jogodaforca","c":"JogoDaForca","l":"JogoDaForca()","u":"%3Cinit%3E()"},{"p":"com.mycompany.jogodaforca","c":"JogoDaForca","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"com.mycompany.jogodaforca","c":"JogoDaForca","l":"MenuDificuldade()"}];updateSearchResults();

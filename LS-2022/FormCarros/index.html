@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <div class="flex mb-2">
+            <div class="flex flex-column w-100">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" class="mr">
+            </div>
+    
+            <div class="flex flex-column w-100">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>    
+        </div>
+
+        <div class="flex mb-2">
+            <div class="flex flex-column w-100">
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" class="mr">
+            </div>    
+            
+            <div class="flex flex-column w-100">
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" 
+                required 
+                placeholder="99 99999-9999"
+                pattern="((\(?\d{2}\?))?(\s?\d{4,5}-\d{4}))">
+            </div>
+        </div>
+
+        <div class="flex flex-column mb-2">
+            <label for="">Data</label>
+            <input type="date" name="data" id="data">
+        </div>
+
+        <div class="flex flex-column mb-2">
+            <div class="m-2">
+                <label>Tipo</label>
+            </div>
+            
+            <div class="flex mb-2">
+    
+                <div class="flex">
+                    <input type="radio" name="tipo" id="economico" value="economico">
+                    <label for="economico">Economico</label>
+                </div>
+
+                <div class="flex">
+                    <input type="radio" name="tipo" id="padrao" value="padrao">
+                    <label for="padrao">Padrao</label>
+                </div>
+
+                <div class="flex">
+                    <input type="radio" name="tipo" id="luxo" value="luxo">
+                    <label for="luxo">Luxo</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex mb-2">
+            <div>
+                <label for="">Adultos</label>
+                <select name="adultos" id="adultos">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="">Crianças</label>
+                <select name="crianças" id="crianças">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="flex flex-column mb-2">
+            <label for="">Mensagem</label>
+            <textarea name="msg" id="ms" cols="30" rows="10"></textarea>
+        </div>        
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="mdb/css/mdb.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Formulário para adicionar produtos -->
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-6 offset-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">
+                            Adicionar produtos
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <!-- <div id="mensagem-erro"></div> -->
+
+                        <ul id="mensagem-erro">
+                        </ul>
+
+                        <form method="post" action="" id="form-adicionar" action="/api/v1/listaProdutos/dados-form"
+                            enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="txtProduto">Produto</label>
+                                <input type="text" placeholder="produto" id="txtProduto" name="txtProduto"
+                                    class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label for="txtPreco">Preço</label>
+                                <input type="text" placeholder="preço" id="txtPreco" name="txtPreco"
+                                    class="form-control" />
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <input type="submit" value="Adicionar" class="btn btn-danger" id="btAdicionar" />
+                                <a href="#" class="btn btn-danger" id="btProdutos" data-toggle="modal"
+                                    data-target="#modal-carrinho">
+                                    Produtos
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- modal de produtos -->
+    <div class="modal fade" id="modal-carrinho" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="heading lead text-center w-100 mb-0">Lista de produtos</p>
+
+                    <button type="button" class="close animated" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <table id="tbProdutos" class="table table-bordered ">
+                        <thead>
+                            <tr>
+                                <td>Produto</td>
+                                <td>Valor</td>
+                                <td>Excluir</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                    <div id="container-total" class="card container-fluid font-text">
+                        <div class="card-body row">
+                            <div class="col-lg-9 col-8 col-md-6 col-sm-6 text-right">
+                                <p>Total</p>
+                            </div>
+                            <div class="col-lg-3 col-4 col-md-6 col-sm-6 text-right">
+                                <p>R$<span id="total">0.0</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="container-vazio" class="jumbotron-fluid display-4 text-center text-dark bg-light">
+                        A lista está vazia <i class="fa fa-frown-o"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/produto.js"></script>
+
+</body>
+
+</html>

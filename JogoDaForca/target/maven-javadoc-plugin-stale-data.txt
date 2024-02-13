@@ -1,0 +1,44 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'20'
+-sourcepath
+'C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/JogoDaForca/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/JogoDaForca/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'JogoDaForca 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'JogoDaForca 1.0-SNAPSHOT API'
+com.mycompany.jogodaforca
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\src\main\java = 1691844355722
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\allclasses-index.html = 1693006685942
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\allpackages-index.html = 1693006685946
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\copy.svg = 1693006686022
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\element-list = 1693006685838
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\help-doc.html = 1693006686009
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\index-all.html = 1693006685987
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\index.html = 1693006685997
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\member-search-index.js = 1693006685957
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\module-search-index.js = 1693006685949
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\overview-tree.html = 1693006685908
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\package-search-index.js = 1693006685952
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\script.js = 1693006686019
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\search-page.js = 1693006686040
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\search.html = 1693006685993
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\search.js = 1693006686036
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\stylesheet.css = 1693006686015
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\tag-search-index.js = 1693006685959
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\JogoDaForca\target\site\apidocs\type-search-index.js = 1693006685954

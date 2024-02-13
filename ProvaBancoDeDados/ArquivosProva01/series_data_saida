@@ -1,0 +1,81 @@
+
+C4.5 [release 5] decision tree generator	Tue Sep 19 19:37:20 2023
+----------------------------------------
+
+    Options:
+	File stem <series>
+	Trees evaluated on unseen cases
+
+Read 40 cases (5 attributes) from series.dat
+
+Decision Tree:
+
+fotografia = colorido:
+|   movimentos camera in {rapido,medio}: aventura (8.0/1.0)
+|   movimentos camera = lento:
+|   |   enquadramento de cena = focopersonagens: terror (1.0)
+|   |   enquadramento de cena = focopaisagens: romance (3.0/1.0)
+|   |   enquadramento de cena = misto: aventura (3.0/1.0)
+fotografia in {pretobranco,envelhecido}:
+|   movimentos camera in {rapido,medio}:
+|   |   enquadramento de cena = focopersonagens:
+|   |   |   trilha sonora in {propria,antiga}: romance (6.0/2.0)
+|   |   |   trilha sonora = atuais: suspense (2.0)
+|   |   enquadramento de cena in {focopaisagens,misto}:
+|   |   |   trilha sonora in {propria,atuais}: terror (7.0/2.0)
+|   |   |   trilha sonora = antiga: romance (3.0/1.0)
+|   movimentos camera = lento:
+|   |   fotografia = envelhecido: suspense (2.0)
+|   |   fotografia = colorido: suspense (0.0)
+|   |   fotografia = pretobranco:
+|   |   |   trilha sonora = atuais: suspense (3.0/1.0)
+|   |   |   trilha sonora = antiga: terror (2.0)
+|   |   |   trilha sonora = propria: terror (0.0)
+
+
+Simplified Decision Tree:
+
+fotografia = colorido: aventura (15.0/6.8)
+fotografia in {pretobranco,envelhecido}:
+|   movimentos camera in {rapido,medio}:
+|   |   enquadramento de cena = focopersonagens:
+|   |   |   trilha sonora in {propria,antiga}: romance (6.0/3.3)
+|   |   |   trilha sonora = atuais: suspense (2.0/1.0)
+|   |   enquadramento de cena in {focopaisagens,misto}:
+|   |   |   trilha sonora in {propria,atuais}: terror (7.0/3.4)
+|   |   |   trilha sonora = antiga: romance (3.0/2.1)
+|   movimentos camera = lento:
+|   |   fotografia = envelhecido: suspense (2.0/1.0)
+|   |   fotografia = pretobranco:
+|   |   |   trilha sonora = atuais: suspense (3.0/2.1)
+|   |   |   trilha sonora = antiga: terror (2.0/1.0)
+|   |   |   trilha sonora = propria: terror (0.0)
+
+
+Tree saved
+
+
+Evaluation on training data (40 items):
+
+	 Before Pruning           After Pruning
+	----------------   ---------------------------
+	Size      Errors   Size      Errors   Estimate
+
+	  22    9(22.5%)     16   11(27.5%)    (51.8%)   <<
+
+Evaluation on test data (40 items):
+
+	 Before Pruning           After Pruning
+	----------------   ---------------------------
+	Size      Errors   Size      Errors   Estimate
+
+	  22    9(22.5%)     16   11(27.5%)    (51.8%)   <<
+
+
+	  (a)  (b)  (c)  (d)	<-classified as
+	 ---- ---- ---- ----
+	    6         3    1	(a): class suspense
+	        10          	(b): class aventura
+	         3    6    1	(c): class romance
+	    1    2         7	(d): class terror
+

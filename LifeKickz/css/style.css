@@ -1,0 +1,226 @@
+#empresa{
+    min-height: 100vh;
+}
+
+#sneakers{
+    background: linear-gradient(45deg, #ffffff, transparent);
+}
+
+#modal{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+#main-home{
+    padding-top: 60px;
+}
+
+.banner{
+    padding: 80px 0;
+    background: linear-gradient(45deg, #ffffff, transparent);
+}
+
+.banner h1{
+    color: #760c15;
+    font-weight: 700;
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+.banner h2{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+nav a span{
+    color: #760c15;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+#barraNav{
+    padding-right: 30px;
+}
+
+section{
+    padding: 80px 0;
+}
+
+.container{
+    margin-left: 2rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title span{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #760c15;
+    font-size: 18px;
+}
+
+.title h1{
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 12px;
+    color: #760c15;
+    margin-bottom: 40px;
+}
+
+.emp_box {
+    box-shadow: 0px 0px 4px #ebebeb;
+    background: #FFF;
+    padding: 25px;
+    border-radius: 4px;
+}
+
+.emp_box figure{
+    height: 350px;
+}
+
+.emp_box figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px #f3f3f39e;
+}
+
+.emp_box h2{
+    text-align: center;
+    color: #760c15;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 15px 0 10px;
+}
+
+.emp_box p{
+    text-align: justify;
+}
+
+.emp_box:hover{
+    cursor: pointer;    
+    scale: 1.2;
+}
+
+.pla_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 35px 30px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 25px #c5c5c563;
+}
+
+.pla_box h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.col-lg-3:nth-child(1) .pla_box h2{
+    color: #f50a0a;
+}
+
+.col-lg-3:nth-child(1) .pla_box button{
+    background-color: #f50a0a;
+    color:#e5e5e5;
+}
+
+.col-lg-3:nth-child(1) .pla_box button:hover{
+    background-color: #f50a0a;
+    opacity: .7;
+}
+
+
+.pla_box span{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.pla_box b {
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 6px;
+}
+
+.pla_box ul{
+    padding: 0;
+}
+
+.pla_box ul li{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.pla_box button{
+    background: #FFF;
+    border: 1px solid #760c15;
+    border-radius: 50px;
+    padding: 6px 30px;
+    color: #760c15;
+    font-size: 15px;
+}
+
+.pla_box button:hover{
+    transition-duration: .4s;
+    background-color: rgba()
+}
+
+.con_box{
+    padding: 30px 25px 15px;
+    background: #f4f7fd;
+    margin-bottom: 25px;
+}
+
+.con_box h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #760c15;
+}
+
+#contato form{
+    padding: 30px;
+    background: #f4f7fd;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input input{
+    height: 40px;
+}
+
+.input input, .input textarea{
+    border: 1px solid #f4f7fd;
+    border-radius: 4px;
+}
+
+footer{
+    padding: 60px 0 0;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    
+}
+
+footer p, footer a {
+    font-size: 14px;
+    margin: 0;
+}
+
+.copyright{
+    margin-top: 15px;
+    background: #f4f7fd;
+    padding: 20px 0;
+}
+

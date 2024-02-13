@@ -1,0 +1,67 @@
+.avatar img{
+    width:  3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 90px 0 0 0;
+    box-shadow: -1px 0 3px rgba(0, 0, 0, 50%);
+    z-index: 1;
+}
+
+.navbar{
+    box-shadow: -1px 0 2px rgba(0, 0, 0, .5);
+}
+
+.sidebar .nav-link{
+    color: #333;
+}
+
+.sidebar .nav-link.active{
+    color: #0d06fd;
+}
+/* 
+@media (min-width: 768){
+    .navbar{
+        top: 0;
+        position: sticky;
+        z-index: 999;
+    }
+} */
+
+.navbar{
+    top: 0;
+    position: sticky;
+    z-index: 999;
+}
+
+main{
+    position: relative;
+    left: 16rem;
+}
+
+.ct-chart .ct-bar{
+    stroke-width: 15px;
+}
+
+.ct-series-a .ct-bar{
+    stroke: #0d06fd !important;
+}
+
+.ct-series-b .ct-bar{
+    stroke: #287af5 !important;
+}
+
+/* .table{ // Não é a melhor forma de se fazer
+    --bs-table-striped-bg: rgb(255, 0, 0);//Muda a cor do zebrado na tabela utilazando o componente do bootstrap
+} */
+
+tbody tr:nth-child(odd)
+{ /* Melhor forma de ser feito */
+    background-color: azure;
+}

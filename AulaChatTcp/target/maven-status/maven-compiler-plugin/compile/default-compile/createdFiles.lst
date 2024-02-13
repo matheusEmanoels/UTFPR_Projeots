@@ -1,0 +1,5 @@
+br\edu\utfpr\aulachatTcp\AulaChatTcp.class
+br\edu\utfpr\aulachatTcp\GerenciadorCliente.class
+br\edu\utfpr\aulachatTcp\Servidor.class
+br\edu\utfpr\aulachatTcp\Cliente$1.class
+br\edu\utfpr\aulachatTcp\Cliente.class
